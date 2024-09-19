@@ -17,11 +17,12 @@ Tables:
 #### layoffs: Contains raw data on layoffs.
 #### layoffs_staging: Temporary table for staging data during the cleaning process.
 #### layoffs_staging2: Final staging table with cleaned data.
-## Relationships:
+## 4. Relationships:
 
 employee_demographics and employee_salary are joined on employee_id.
 employee_salary and parks_departments are joined on dept_id.
 layoffs data is cleaned and transformed without explicit relational constraints.
 
 
-
+## 5. Summary
+This project demonstrates a range of SQL operations including basic data retrieval, aggregation, joining tables, and advanced data cleaning techniques. The initial queries cover various SQL functionalities like transformations, joins, and aggregations, while the second set focuses on data cleaning, standardization, and handling duplicates.
